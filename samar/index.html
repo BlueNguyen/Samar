@@ -37,22 +37,21 @@
     <!-- Carousel owl -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css" />
     <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-<!-- FANCY BOX -->
+    <!-- FANCY BOX -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
     />
-<!-- FACE IN UP -->
+    <!-- FACE IN UP -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
-    
+
     <link
       rel="stylesheet"
       href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
     />
-
 
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/style.css" />
@@ -110,9 +109,11 @@
           <div class="carousel__left">
             <div class="title">
               <p class="animate__animated animate__fadeInUp">We are The Best</p>
-              <h2 class="animate__animated animate__fadeInUp animate__delay-1s">Freelance Product Designer Running</h2>
+              <h2 class="animate__animated animate__fadeInUp animate__delay-1s">
+                Freelance Product Designer Running
+              </h2>
             </div>
-            <div class="article ">
+            <div class="article">
               <p class="animate__animated animate__fadeInUp animate__delay-2s">
                 We develop the relationships that underpin the next phase in
                 your <br />
@@ -128,11 +129,17 @@
                   Outstanding mobile design
                 </li>
               </ul>
-              <div class="btn animate__animated animate__fadeInUp animate__delay-4s"><button class="button">GET STARTED</button></div>
+              <div
+                class="btn animate__animated animate__fadeInUp animate__delay-4s"
+              >
+                <button class="button">GET STARTED</button>
+              </div>
             </div>
           </div>
           <div class="carousel__right">
-            <div class="carousel__banner animate__animated animate__fadeInUp animate__delay-3s">
+            <div
+              class="carousel__banner animate__animated animate__fadeInUp animate__delay-3s"
+            >
               <img src="./img/pic3_1.png" alt="pic3_1.png" />
             </div>
           </div>
@@ -178,10 +185,18 @@
     <section class="intro section-inner">
       <div class="container">
         <div class="intro__content">
-          <div class="intro__left">
+          <div
+            class="intro__left wow animate__animated animate__fadeInLeft"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+          >
             <img src="./img/pic1.jpg" alt="pic1.jpg" />
           </div>
-          <div class="intro__right">
+          <div
+            class="intro__right wow animate__animated animate__fadeInRight"
+            data-wow-duration="2s"
+            data-wow-delay="0.2s"
+          >
             <div class="title">
               <p>About Us</p>
               <h2>
@@ -703,6 +718,17 @@
       Fancybox.bind('[data-fancybox="gallery"]', {
         // Your custom options
       });
+    </script>
+    <!-- WOW JS -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+      integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
 
     <!-- BACK TO TOP JS -->

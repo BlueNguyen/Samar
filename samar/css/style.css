@@ -1,10 +1,10 @@
 /* GLOBAL */
 :root {
-    --animate-duration: 2s;
-
+  --animate-duration: 2s;
 }
 
-*,*::before,
+*,
+*::before,
 *::after {
   margin: 0;
   padding: 0;
@@ -114,7 +114,7 @@ header {
   margin-top: -3px;
   vertical-align: middle;
 }
-.header__content li:hover a{
+.header__content li:hover a {
   color: #f55f8d;
 }
 .header__content li span:hover {
